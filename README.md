@@ -82,7 +82,6 @@ Flux : Utilisateur ↔ React (Frontend) ↔ Flask API (Backend) ↔ API Reddit
 - **Modèle utilisé** : `cardiffnlp/twitter-roberta-base-sentiment`
 - **Objectif** : Classer les textes en `positive`, `negative` ou `neutral`
 
-
 ## **5. Schéma de la Base de Données**
 Bien que le projet ne stocke pas de données de manière persistante, voici la structure utilisé par le backend:
 
@@ -99,7 +98,63 @@ Bien que le projet ne stocke pas de données de manière persistante, voici la s
 | 1   | 1       | "Commentaire Exemple"  | Negative  | 0.23  |
 
 
-## **6. Mockups et Screenshots**
+
+
+
+## **6. Structure du Projet**
+```bash
+reddit-scraper/
+├── backend/ # Traitement Python
+│     └── app.py # Script principal de traitement Reddit
+├── frontend/ # Application React
+│ ├── node_modules/ # Dependencies React
+│ ├── public/ # Fichiers statiques
+│ └── src/ # Code source
+│   ├── App.js # Composant principal
+│   ├── App.css # Styles
+│   └── (autres fichiers React)
+├── node_modules/ # Dependencies Node.js
+├── package-lock.json # Lock des versions
+└── package.json # Config projet
+```
+
+
+### **6.1 Backend (Python)**
+- **app.py** :
+  - Gère la logique de scraping Reddit
+  - Utilise une API pour le frontend
+  - Formatte les données pour l'affichage
+
+### **6.2 Frontend (React)**
+- **App.js** :
+  - Point d'entrée de l'application
+  - Gère :
+    - La communication API avec le backend
+    - L'affichage dynamique des données
+    - Les interactions utilisateur
+- **App.css** :
+  - Styles principaux de l'application
+  - Mise en page des résultats
+
+### **6.3 Workflow**
+1. L'utilisateur lance une recherche via l'interface React
+2. Le frontend appelle le backend Python
+3. Le backend :
+   - Récupère les données Reddit
+   - Effectue le traitement nécessaire
+4. Les résultats sont affichés dynamiquement
+
+## **7. Dépendances**
+### 7.1 Backend
+```bash
+pip install praw python-dotenv
+```
+### 7.2 Frontend
+```bash
+npm install axios react-chartjs-2
+```
+
+## **8. Mockups et Screenshots**
 ### Écran principal :
 - Recherche par **subreddit** et **keyword**
 <div align="center">
