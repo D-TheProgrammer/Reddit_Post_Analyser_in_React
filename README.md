@@ -158,21 +158,20 @@ npm install axios react-chartjs-2
 ### Écran principal :
 - Recherche par **subreddit** et **keyword**
 <div align="center">
-  <img width="946" alt="image" src="https://github.com/user-attachments/assets/c8bb0155-2d12-4e07-ad01-39a42189171d">
+  <img width="946" alt="image" src="https://github.com/user-attachments/assets/8ca60e23-9ee8-4a30-949e-19b5c2d94027">
 </div>
 
-- Liste des posts avec sentiment
+
+- Liste des posts avec sentiment et des statistique sur la répartition des sentiments pour les Subreddits 
 <div align="center">
-  <img width="946" alt="image" src="https://github.com/user-attachments/assets/a5f73c47-f97d-491e-a3a2-7098698b4dc0">
+  <img width="1246" alt="image" src="https://github.com/user-attachments/assets/0547705e-5e54-42c6-9a19-6c345f3bc816">
 </div>
-
-
 
 
 ### Écran des commentaires :
-- Affichage des commentaires et leur analyse de sentiment
+- Affichage des commentaires et leur analyse de sentiment , une **Nouvelle** répartition des sentiments pour les commentaires est affiché
 <div align="center">
-  <img width="946" alt="image" src="https://github.com/user-attachments/assets/561a9ed8-754f-401a-a44b-59446ac085d9">
+  <img width="946" alt="image" src="https://github.com/user-attachments/assets/95693a9b-ffee-45c3-8715-9c0a96824e85">
 </div>
 
 
