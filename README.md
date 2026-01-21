@@ -3,7 +3,12 @@
 
 [English] ASR is a sentiment analysis tool for Reddit posts/comments, using an NLP model (positive/negative/neutral). Built with Flask (backend) + React (frontend)
 
-
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-Sentiment_Analysis-green)
+![Transformers](https://img.shields.io/badge/Transformers-HuggingFace-yellow)
+![Status](https://img.shields.io/badge/Status-Complete-success)
 
 # **Documentation Technique - Analyse de Sentiment Reddit**  
 
